@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+body,
+.post-content,
+.entry-content {
+  font-family: "Source Serif 4", serif !important;
+  font-weight: 300 !important;
+  line-height: 1.7;
+}
+
+code,
+pre {
+  font-family: "Sometype Mono", monospace !important;
+}
+
+/* Episode card grid on homepage */
+
+.episodes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.episode-card {
+  border: 1px solid rgba(125, 125, 125, 0.25);
+  border-radius: 16px;
+  padding: 1rem;
+  background: var(--entry);
+}
+
+.episode-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 0.75rem;
+}
+
+.episode-card h3 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+
+body.dark,
+.dark,
+[data-theme="dark"],
+body[data-theme="dark"] {
+  --theme: #43205E !important;
+  --entry: #43205E !important;
+  --primary: #ACCDE8 !important;
+  --secondary: #ACCDE8 !important;
+  --content: #ACCDE8 !important;
+  background-color: #43205E !important;
+  color: #ACCDE8 !important;
+}
+
+body.dark main,
+[data-theme="dark"] main,
+body[data-theme="dark"] main,
+body.dark article,
+[data-theme="dark"] article,
+body[data-theme="dark"] article {
+  background-color: #43205E !important;
+  color: #ACCDE8 !important;
+}
+
+body.dark p,
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark a,
+[data-theme="dark"] p,
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] a {
+  color: #ACCDE8 !important;
+}

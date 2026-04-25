@@ -1,0 +1,21 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Feyntasia: Drawn to Particle Physics'
+theme = 'PaperMod'
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  name = "Episodes"
+  url = "/posts/"
+  weight = 2
+
+  [[menu.main]]
+  name = "About Us"
+  url = "/about/"
+  weight = 3
