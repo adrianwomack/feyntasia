@@ -9,7 +9,7 @@ author: ["Cecilia Ochoa", "Adrian Womack", "Flip Tanedo"]
 summary: "Welcome to the Quantum Casino, where Feynman diagrams become a game of cards."
 
 cover:
-  image: "/images/episode-01/01cosmicdealer.PNG"
+  image: "images/episode-01/01cosmicdealer.PNG"
 ---
 
 # *Particle Bites, Episode I*: The Quantum Casino
