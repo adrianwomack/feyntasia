@@ -1,24 +1,17 @@
 ---
-title: "Episode 1: The Quantum Casino"
+title: "Episode I: The Quantum Casino"
 date: 2025-12-01
 draft: false
 weight: 1
 
 author: ["Cecilia Ochoa", "Adrian Womack", "Flip Tanedo"]
 
-summary: "Welcome to the Quantum Casino, where Feynman diagrams become a game of cards."
+summary: "Welcome to the Quantum Casino, where uncertainty and weirdness are the stars of the show."
 
 cover:
   image: "images/episode-01/01cosmicdealer.PNG"
 ---
 
-# *Particle Bites, Episode I*: The Quantum Casino
-
-Written and Edited by: Cecilia Ochoa
-
-Illustrated by: Adrian Womack
-
-Created by: Flip Tanedo
 
 ![Cosmic Dealer](/images/episode-01/01cosmicdealer.PNG)
 
