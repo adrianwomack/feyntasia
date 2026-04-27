@@ -1,3 +1,8 @@
+---
+title: "About Us"
+draft: false
+---
+
 ![Group photo](/images/about/IMG_4972.jpg)
 
 <div class="about-blurb">
