@@ -1,7 +1,3 @@
----
-title: "Feyntasia"
----
-
 Feynman diagrams—those squiggly lines you see on physicists’ chalkboards—are a code and a language. As a code, they are a mathematical shorthand for the multidimensional calculus of quantum field theory. As a language, they let physicists tell the story of the subatomic dance of particles that gird our universe. 
 
 To learn to use them as a code, one must master several years’ worth of graduate-level mathematics and physics. However, as a language for story telling, the diagrams themselves are a powerful tool to share how we presently understand the most fundamental laws of nature. 
