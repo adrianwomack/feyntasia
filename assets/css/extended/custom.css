@@ -48,12 +48,12 @@ body.dark,
 .dark,
 [data-theme="dark"],
 body[data-theme="dark"] {
-  --theme: #43205E !important;
-  --entry: #43205E !important;
+  --theme: #0E002F !important;
+  --entry: #0E002F!important;
   --primary: #ACCDE8 !important;
   --secondary: #ACCDE8 !important;
   --content: #ACCDE8 !important;
-  background-color: #43205E !important;
+  background-color: #0E002F !important;
   color: #ACCDE8 !important;
 }
 
