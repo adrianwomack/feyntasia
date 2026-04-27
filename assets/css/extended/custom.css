@@ -108,3 +108,13 @@ body.dark a,
 .center {
   text-align: center;
 }
+
+.post-content table img {
+  width: 150px;
+  max-width: 150px;
+  border-radius: 12px;
+}
+
+.post-content table td {
+  vertical-align: top;
+}
