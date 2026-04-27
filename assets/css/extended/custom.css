@@ -79,3 +79,18 @@ body.dark a,
 [data-theme="dark"] a {
   color: #ACCDE8 !important;
 }
+
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  background: #ACCDE8;
+  color: #43205E !important;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.cta-button:hover {
+  opacity: 0.85;
+}
