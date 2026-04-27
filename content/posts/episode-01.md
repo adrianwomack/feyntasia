@@ -13,8 +13,6 @@ cover:
 ---
 
 
-![Cosmic Dealer](images/episode-01/01cosmicdealer.PNG)
-
 Welcome to the Quantum Casino, where uncertainty and weirdness are the stars of the show.
 
 The Cosmic Dealer invites you to play a game called QED.
