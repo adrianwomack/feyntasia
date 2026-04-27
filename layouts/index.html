@@ -10,7 +10,7 @@
   </div>
 
   <div class="center-button">
-    <a href="{{ "/posts/episode-01/" | relURL }}" class="cta-button">Go to Episode 0</a>
+    <a href="{{ "/posts/episode-00/" | relURL }}" class="cta-button">Go to Episode 0</a>
   </div>
 
   <hr>
@@ -18,8 +18,7 @@
   <h2>Episodes</h2>
 
   <div class="episodes-grid">
-    {{ $episodes := where site.RegularPages "Section" "posts" }}
-    {{ range sort $episodes "Weight" "asc" }}
+    {{ range (where site.RegularPages "Section" "posts").ByWeight }}
       <article class="episode-card">
         <a href="{{ .RelPermalink }}">
           {{ with .Params.cover.image }}
