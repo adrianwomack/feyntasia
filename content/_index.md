@@ -17,3 +17,6 @@ Like the quantum reality that Feynman diagrams represent, it is all of these thi
 > Garak: Especially the lies.  
 > — “The Wire,” *Star Trek: Deep Space Nine*
 
+<p class="center">
+  <a href="/posts/episode-00/">Go to <u>Episode 0</u></a>
+</p>

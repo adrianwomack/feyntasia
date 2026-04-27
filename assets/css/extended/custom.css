@@ -94,3 +94,17 @@ body.dark a,
 .cta-button:hover {
   opacity: 0.85;
 }
+
+.center-button {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.post-content p {
+  margin-bottom: 1.5rem;
+}
+
+.center {
+  text-align: center;
+}
