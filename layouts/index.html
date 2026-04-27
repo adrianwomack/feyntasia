@@ -5,33 +5,35 @@
     <h1 class="post-title">{{ .Title }}</h1>
   </header>
 
+
   <div class="post-content">
     {{ .Content }}
   </div>
 
-  <div class="center-button">
-    <a href="{{ "/posts/episode-00/" | relURL }}" class="cta-button">Go to Episode 0</a>
-  </div>
-
+<div class="center-button">
+  <a href="{{ "/posts/episode-00/" | absURL }}" class="cta-button">Go to Episode 0</a>
+</div>
   <hr>
 
   <h2>Episodes</h2>
 
   <div class="episodes-grid">
-    {{ range (where site.RegularPages "Section" "posts").ByWeight }}
-      <article class="episode-card">
-        <a href="{{ .RelPermalink }}">
-          {{ with .Params.cover.image }}
-            <img src="{{ . | absURL }}" alt="{{ $.Title }}">
-          {{ end }}
-          <h3>{{ .Title }}</h3>
-        </a>
-        {{ with .Summary }}
-          <p>{{ . }}</p>
+  {{ $episodes := where site.RegularPages "Section" "posts" }}
+  {{ range sort $episodes "Params.weight" "asc" }}
+    <article class="episode-card">
+      <a href="{{ .RelPermalink }}">
+        {{ with .Params.cover.image }}
+          <img src="{{ . | absURL }}" alt="{{ $.Title }}">
         {{ end }}
-      </article>
-    {{ end }}
-  </div>
+        <h3>{{ .Title }}</h3>
+      </a>
+      {{ with .Summary }}
+        <p>{{ . }}</p>
+      {{ end }}
+    </article>
+  {{ end }}
+</div>
+
 </article>
 
 {{ end }}
